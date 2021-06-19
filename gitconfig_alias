@@ -1,0 +1,18 @@
+[alias]
+  a = add
+  ap = add -p
+  serve = daemon --verbose --export-all --base-path=.git --reuseaddr --strict-paths .git/
+  ps = push
+  pl = pull
+  pfwl = push --force-with-lease
+  c = commit
+  cm = commit -m
+  difs = diff --staged
+  d = diff
+  ds = diff --staged
+  s = status
+  si = status --ignored
+  r = reset
+  addnw = ! git diff -U0 -w --no-color | git apply --cached --ignore-whitespace --unidiff-zero -
+  urmfh = update-ref refs/heads/merge FETCH_HEAD
+  urm = update-ref refs/heads/merge
