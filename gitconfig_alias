@@ -4,9 +4,11 @@
   serve = daemon --verbose --export-all --base-path=.git --reuseaddr --strict-paths .git/
   ps = push
   pl = pull
+  plr = pull --rebase
   pfwl = push --force-with-lease
   c = commit
   cm = commit -m
+  ca = commit --amend
   difs = diff --staged
   d = diff
   ds = diff --staged
