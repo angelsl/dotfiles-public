@@ -24,6 +24,8 @@ alias l='ls -lah'
 alias ll='ls -lh'
 alias la='ls -lAh'
 alias g=git
+alias c=cd
+alias n=nano
 
 [ -z "$HISTFILE" ] && HISTFILE="$HOME/.zsh_history"
 HISTSIZE=50000
